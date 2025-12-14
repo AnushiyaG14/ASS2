@@ -23,7 +23,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      DATABASE_URL: postgresql+asyncpg://taskuser:taskpass@db:5432/taskdb
+      DATABASE_URL: YOUR_URL
     ports:
       - "8000:8000"
 
