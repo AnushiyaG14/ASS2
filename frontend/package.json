@@ -1,0 +1,18 @@
+{
+  "name": "task-runner-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.0",
+    "vue": "^3.4.0",
+    "pinia": "^2.1.7",
+    "@pinia/nuxt": "^0.5.1"
+  }
+}
