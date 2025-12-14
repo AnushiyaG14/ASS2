@@ -23,7 +23,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      DATABASE_URL: YOUR_URL
+      DATABASE_URL: DATABASE_URL
     ports:
       - "8000:8000"
 
